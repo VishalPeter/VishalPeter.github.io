@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -20,8 +20,50 @@ body {
     background-color: salmon;
 }
 
-selctor{
-
+#lw {
+    margin-right: .75em;
+    margin-top: auto;
 }
-<link rel="stylesheet" type="text/css"
-href="franklin.css">
+
+#right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    order: 1;
+}
+
+#main {
+    order: 2;
+}
+
+#navi {
+    order: 4;
+}
+
+#footer {
+    order: 3;
+}
+#franklin{
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
