@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Sansita');
 
-@font-face {
+@font-face 
 {
 font-family : "'Sansita'";
 font-style : normal;
 font-weight : 400;
 src : local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/i4y24Wm1Hpy25yM7r2FKUg.ttf) format('truetype');
 }
-}
+
 
 *{
     box-sizing: border-box;
@@ -117,7 +117,7 @@ border-radius : 5px;
 h1,h2{font-family : Sansita, "second choice", generic-family;
 }
 #shift-me {
-    text-align: center;*/
+    text-align: center;
 }
 #sunny{
    width: 50px;
