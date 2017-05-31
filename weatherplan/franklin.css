@@ -190,25 +190,29 @@ justify-content : space-around;
 
 #main {
 display : flex;
-    
 }
-    .cur{
-        
-    }
-    
     
 .hourly {
 display : flex;
-flex-direction : column;
 background-color : rgba(200, 200, 200, 0.6);
 width : 33%;
 max-height : 40%;
 margin : 0.1em;
 border : solid 1px;
-border-radius : 5px;
+border-radius : 5px;    
+order: 3;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    }
+    #hourly{
+        display: block;
+    }
     
-}
- 
+    li{
+        list-style: none;
+    }
+    
 .franklin {
 display : flex;
 flex-direction : column;
@@ -219,9 +223,11 @@ background-color : rgba(200, 200, 200, 0.6);
 margin : 0.1em;
 border : solid 1px;
 border-radius : 5px;
+    order: 2;
     }
+
     
-    .fif{
+    #fif{
         width : 50%;
 background-color : transparent;
 margin : 0.2em auto;
@@ -235,9 +241,11 @@ border-radius : 5px;
 align-items : center;
 height : 100%;
 padding-bottom : 14.4em;
-padding-top : 1em;
+padding-top : 2em;
 margin : 0.1em;
-width : 33%
+width : 33%;
+order: 1;
+    
 }
     
     #sunny{
@@ -245,9 +253,7 @@ display : inherit;
 }
 
 #time {
-display : flex;
-flex-flow : column;
-    align-items: center;
-}    
+    display: block;
+    }    
     
 }
