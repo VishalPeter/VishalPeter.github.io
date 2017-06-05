@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+@font-face 
+{
+font-family : "'Sansita'";
+font-style : normal;
+font-weight : 400;
+src : local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/i4y24Wm1Hpy25yM7r2FKUg.ttf) format('truetype');
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+article,
+aside,
+footer,
+header,
+nav,
+selection,
+main,
+figcaption,
+figure {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: salmon;
+}
+
+#lw {
+    margin-right: .75em;
+    margin-top: auto;
+}
+
+#right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    border : black solid;
+    padding: 2em;
+    order : 2;
+    background-color : #F07C6C;
+    text-decoration: none;
+    color: #47556F;
+}
+
+#nav a {
+    text-decoration: none;
+    color: lawngreen;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    order: 1;
+}
+
+#main {
+    order: 2;
+    background-size : cover;
+    background-image:url(sunny-winter.jpg);
+}
+
+#navi {
+    order: 4;
+}
+
+#cur{
+     text-indent: 50px;
+    text-align: center;
+border : solid 1px;
+color : black;
+margin : 0.2em auto;
+text-align : center;
+margin-top : 2em;
+background-color : rgba(200, 200, 200, 0.6);
+border-radius : 5px;
+
+}
+
+#footer {
+    order: 3;
+}
+
+#springfield{
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#picture{
+display : flex;
+justify-content : space-around;
+}
+
+#fif{
+width : 125px;
+text-align : center;
+}
+
+#sun{
+width : 20px;
+height : 20px;
+}
+
+#hourly, #time, #sunny{
+    display: none;
+}
+
+#sev{
+    display: flex;
+    align-self: flex-end;
+}
+
+h1,h2{font-family : Sansita, "second choice", generic-family;
+}
+
+.picture{
+    display: flex;
+    flex-direction: row;   
+ justify-content: center;
+    text-indent: 50px;
+    text-align: center;
+}
+
+.springfield{
+    text-align: center;
+}
+
+.fif{
+text-indent: 50px;
+border : solid 1px;
+color : black;
+margin : 0.2em auto;
+text-align : center;
+margin-top : 2em;
+background-color : rgba(200, 200, 200, 0.6);
+border-radius : 5px;
+}
+
+header, footer
+{
+    background-color: #A6D8DB;
+}
+
+
+
+
+
+@media only screen and (min-width : 950px){
+    
+    .html {
+direction : ltr;
+}
+#navi{
+        order: 1;
+    }
+    
+#right
+    {
+display : flex;
+justify-content : flex-start;
+margin-left : 12em;
+}
+      
+    
+#ul {
+width : 100%;
+display : flex;
+justify-content : space-around;
+}
+
+#main {
+display : flex;
+}
+    
+.hourly {
+display : flex;
+background-color : rgba(200, 200, 200, 0.6);
+width : 33%;
+max-height : 40%;
+margin : 0.1em;
+border : solid 1px;
+border-radius : 5px;    
+order: 3;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    }
+    #hourly{
+        display: block;
+    }
+    
+    li{
+        list-style: none;
+    }
+    
+.springfield {
+display : flex;
+flex-direction : column;
+align-items : center;
+justify-content : space-around;
+    width : 33%;
+background-color : rgba(200, 200, 200, 0.6);
+margin : 0.1em;
+border : solid 1px;
+border-radius : 5px;
+    order: 2;
+    }
+
+    
+    #fif{
+        width : 50%;
+background-color : transparent;
+margin : 0.2em auto;
+border : solid 1px;
+border-radius : 5px;
+    }
+    
+    #cur{
+        display : flex;
+        flex-direction : column;
+align-items : center;
+height : 100%;
+padding-bottom : 14.4em;
+padding-top : 2em;
+margin : 0.1em;
+width : 33%;
+order: 1;
+    
+}
+    
+    #sunny{
+display : inherit;
+}
+
+#time {
+    display: block;
+    }    
+    
+}
