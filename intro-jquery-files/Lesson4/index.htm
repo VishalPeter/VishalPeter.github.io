@@ -6,8 +6,47 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/jquery-3.0.0.min.js"></script>
 	<script>
-	$(function(){
-		// jQuery Code goes here
+		
+        $(function () {
+			
+        var toggleStyle = function(){
+            
+            var inputFields = $('input[type="text"]');
+            
+            if ( inputFields.css('background-color') === 'rgb(255, 0, 0)'){
+                // Set background color to white
+                inputFields.css('background-color', 'rgb(255, 255, 255)');
+            } else{
+                // Set background color to red 
+               inputFields.css('background-color', 'rgb(255, 0, 0)');
+            }
+        }
+        
+        $('#ReqAQuoteBtn').click( toggleStyle );
+        
+            
+            //$('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
+
+			$('.coreValues').prepend("<li><strong>This is brand new !!</strong></li>");
+
+			$("<li><strong>This is brand new !!</strong></li>").appendTo('.coreValues');
+
+			var nameVal = $('input[name = "nameVal"]');
+
+			function FillEmpty() {
+				if (nameVal.val() == '') {
+					nameVal.val('John Doe');
+				}
+			}
+
+			$('#ReqAQuoteBtn').click(FillEmpty);
+
+		})
+            
+$(function(){
+    $('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
+}
+ )
 
 	})
 	</script>
@@ -105,6 +144,20 @@
 		<div class="footer">
 			<h5>© Alcove Digital Systems | <a href="#">Terms of Use</a></h5>
 		</div>
+        
+        <div class="footer">
+			<h5>© Alcove Digital Systems | <a href="#">Terms of Use</a> 
+                | <a href="animatedmenubegin.htm">Animated Menu</a> |
+                <a href="dropdownmenubegin.htm">Drop Down Menu</a> | 
+                <a href="fruitbasketbegin.htm">Fruit Basket</a> | 
+                <a href="togglebuttonbegin.htm">Toggle Button</a> |
+                <a href="../../index.html">HOME</a>
+            
+            </h5>
+                
+            
+		</div>
+        
 	</div>
 </body>
 </html>
