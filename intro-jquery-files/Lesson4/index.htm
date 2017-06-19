@@ -13,10 +13,10 @@
             
             var inputFields = $('input[type="text"]');
             
-            if ( inputFields.css('background-color') === 'rgb(255, 0, 0)'){
+            if ( inputFields.css('background-color') === 'rgb(255, 0, 0)') {
                 // Set background color to white
-                inputFields.css('background-color', 'rgb(255, 255, 255)');
-            } else{
+            inputFields.css('background-color', 'rgb(255, 255, 255)');
+            } else {
                 // Set background color to red 
                inputFields.css('background-color', 'rgb(255, 0, 0)');
             }
@@ -24,31 +24,32 @@
         
         $('#ReqAQuoteBtn').click( toggleStyle );
         
+            // For Append
             
-            //$('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
+            $('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
+             
+            $("<li><strong>This is also great !!</strong></li>").appendTo(".coreValues");
 
-			$('.coreValues').prepend("<li><strong>This is brand new !!</strong></li>");
+            // For Prepend
+            
+            //$('.coreValues').prepend("<li><strong>This is brand new !!</strong></li>");
+             
+           // $("<li><strong>This is also great !!</strong></li>").prependTo(".coreValues");
 
-			$("<li><strong>This is brand new !!</strong></li>").appendTo('.coreValues');
 
-			var nameVal = $('input[name = "nameVal"]');
+			var nameVal = $('input[name="nameVal"]');
 
 			function FillEmpty() {
 				if (nameVal.val() == '') {
-					nameVal.val('John Doe');
+					nameVal.val( 'John Doe' );
 				}
 			}
 
 			$('#ReqAQuoteBtn').click(FillEmpty);
-
-		})
             
-$(function(){
-    $('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
-}
- )
+		})
 
-	})
+	
 	</script>
 </head>
 <body>
@@ -151,6 +152,7 @@ $(function(){
                 <a href="dropdownmenubegin.htm">Drop Down Menu</a> | 
                 <a href="fruitbasketbegin.htm">Fruit Basket</a> | 
                 <a href="togglebuttonbegin.htm">Toggle Button</a> |
+                <a href="InsertHTMLBegin.htm">Move Content</a> |
                 <a href="../../index.html">HOME</a>
             
             </h5>
