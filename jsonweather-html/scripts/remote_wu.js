@@ -24,7 +24,7 @@ $(function () {
   function getData(lat, long){
     $.ajax({
         
-        url : "http://api.wunderground.com/api/a48c6296eee52d74/geolookup/conditions/q/" + lat + "," + long + ".json",
+        url : "https://api.wunderground.com/api/a48c6296eee52d74/geolookup/conditions/q/" + lat + "," + long + ".json",
   dataType : "jsonp",
   success : function(parsed_json) {
   var location = parsed_json['location']['city'];
