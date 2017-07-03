@@ -100,11 +100,12 @@ border-radius : 5px;
     order: 3;
 }
 
-#search{
+/*#search{
     width: 33%;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
+/*
 
 #picture{
 display : flex;
@@ -120,6 +121,8 @@ text-align : center;
 width : 20px;
 height : 20px;
 }
+*/
+/*
 
 #hourly, #time, #sunny{
     display: none;
@@ -129,10 +132,12 @@ height : 20px;
     display: flex;
     align-self: flex-end;
 }
+*/
 
 h1,h2{font-family : Sansita, "second choice", generic-family;
 }
 
+/*
 .picture{
     display: flex;
     flex-direction: row;   
@@ -140,10 +145,12 @@ h1,h2{font-family : Sansita, "second choice", generic-family;
     text-indent: 50px;
     text-align: center;
 }
+*/
 
 .search{
     text-align: center;
 }
+/*
 
 .fif{
 text-indent: 50px;
@@ -156,6 +163,7 @@ background-color : rgba(200, 200, 200, 0.6);
 border-radius : 5px;
 }
 
+*/
 header, footer
 {
     background-color: #A6D8DB;
@@ -191,7 +199,7 @@ justify-content : space-around;
 #main {
 display : flex;
 }
-    
+    /*
 .hourly {
 display : flex;
 background-color : rgba(200, 200, 200, 0.6);
@@ -212,7 +220,7 @@ flex-direction: column;
     li{
         list-style: none;
     }
-    
+    */
 .search {
 display : flex;
 flex-direction : column;
@@ -227,14 +235,14 @@ border-radius : 5px;
     }
 
     
-    #fif{
+  /*  #fif{
         width : 50%;
 background-color : transparent;
 margin : 0.2em auto;
 border : solid 1px;
 border-radius : 5px;
     }
-    
+  */  
     #cur{
         display : flex;
         flex-direction : column;
@@ -247,11 +255,11 @@ width : 33%;
 order: 1;
     
 }
-    
+   /* 
     #sunny{
 display : inherit;
 }
-
+*/
 #time {
     display: block;
     }    
