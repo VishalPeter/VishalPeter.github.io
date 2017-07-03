@@ -8,23 +8,70 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="search.css" media="screen">
       
-  </head>
+  <head>
   
     <body>
         
+        
+        
+             <div id="wrapper">
+        <header id="header">
+            <img src="images/logo-blue.jpg" alt="Logo">
+            <div id="right">
+                <h1 id="lw">Local Weather</h1>
+            </div>
+        </header>
+                 
+                 
+        <nav id="navi">
+            <ul id="nav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li><a href="search.html">Search</a></li>
+            </ul>
+        </nav>
+                 
+                 <main id="main">
+                 
+                     
+        <div class="wrap">
+            <section class="cur-conditions">
+                <h2 class="cur"><span>&#9728;</span>Current Conditions</h2>
+                <h4 id="add1"></h4>
+                <h4 id="add2"></h4>
+                <h4 id="add3"></h4>
+            </section>
+            <section class="overview">
+                <h2 id="cityDisplay"></h2>
+                <h3 id="currentTemp"></h3>
+                <p id="summary"></p>
+            </section>
+            <section class="hourly">
+                <h2>Search Results</h2>
         <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
-  <input type="search" name="query" id="query">
-  <input type="submit" name="submit" value="Search" id="send">
-</form>
-        
+
+            <input type="search" name="query" id="query">
+            <input type="submit" name="submit" value="find" id="send">
+        </form>
+
         <section id="searchResults">
-  <h2>Search Results</h2>
-</section>
+
+        </section>
+            </section>
+        </div>
+                     </main>
         
+        <footer class="logo">
+            <small id="update"></small>
+            &copy;<strong>2017 Weather Site</strong> | <a href="/index.html">vishalitos</a>
+            <img src="weatherplan/wulogo.jpg" width=200px length=200px>
+        </footer>
         
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="search.js"></script>
         
-  </body>
-
-</html>
+      </body>
+      </body>
+      </head>
