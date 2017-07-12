@@ -1,0 +1,100 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+@font-face 
+{
+font-family : "'Sansita'";
+font-style : normal;
+font-weight : 400;
+src : local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/i4y24Wm1Hpy25yM7r2FKUg.ttf) format('truetype');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+selection,
+main,
+figcaption,
+figure {
+    display: block;
+}
+*/
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    margin: 1em;
+    background-size : cover;
+    background-image: url(/acme/images/site/background.jpg);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    order : 2;
+    background-color : #de2226;
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    font-family : Sansita, "second choice", generic-family;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    order: 1;
+}
+
+#main {
+    order: 2;
+}
+
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    order: 3;
+}
+
+header, nav, footer, main
+{
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+@media only screen and (min-width : 950px){
+    
+}
+
+
+    
