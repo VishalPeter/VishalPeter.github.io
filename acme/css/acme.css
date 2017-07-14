@@ -276,7 +276,7 @@ noscript {
     }
     .container .secondary_header {}
 }
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 788px) {
     .secondary_header ul li {
         float: none;
         margin-top: 28px;
@@ -294,7 +294,7 @@ noscript {
     }
 
 }
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 550px){
     #tablet{display: flex; width: 30em;}
 }
 
@@ -314,7 +314,7 @@ noscript {
 }
 
 
-@media (min-width: 769px) and (max-width: 1000px) {
+@media (min-width: 789px) and (max-width: 1000px) {
     .secondary_header {
         overflow: auto;
         padding-top: 30px;
