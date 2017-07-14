@@ -18,7 +18,7 @@
             <script src="/acme/js/code.js"></script>
         </header>
         <div class="primary_header">
-            <img id="logo" src="/acme/images/site/logo.png" alt="logo for the site">
+            <img id="logo" src="/acme/images/site/logo.png" alt="acme logo">
         </div>
         <nav id="page-nav">
             <noscript id="noscript">Enable JavaScript for this site to function.</noscript>
@@ -40,40 +40,64 @@
                                 <li>Quick lighting fuse.</li>
                                 <li>NHTSA approved seat belts.</li>
                                 <li>Mobile launch stand included.</li>
-                            </ul>
-                            <img src="/acme/images/site/iwantit.gif" class="logo" alt="button">
+                                    <a href="/acme/index.html"><img id="actionbtn" alt="Add to cart button" src="/acme/images/site/iwantit.gif"></a>
+                                </ul>
                         </section>
                     </section>
                 </section>
-                <section class="left_article">
-                    <div id="other-content-2">
-                        <div id="reviews">
-                            <br>
-                            <h1>Welcome to acme | Acme Rocket Reviews</h1>
-                            <ul>
-                                <li>"I don't know how I ever caught roadrunners before this." (9/10)</li>
-                                <li>"That thing was fast!" (4/5)</li>
-                                <li>"Talk about fast delivery." (5/5)</li>
-                                <li>"I didn't even have to pull the meat apart." (4.5/5)</li>
-                                <li>"I'm on my thirtieth one. I love these things!" (5/5)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+
                 <div class="row blockDisplay">
                     <div id="other-content">
                         <div id="recipes">
                             <h3>Featured Recipes</h3>
-                            <ul class="left_article" id="recipe-content">
-                                <li><img src="/acme/images/recipes/bbqsand.jpg" alt="Pulled Roadrunner BBQ Sandwich">Pulled Roadrunner BBQ</li>
-                                <li><img src="/acme/images/recipes/potpie.jpg" alt="Roadrunner Pot Pie">Roadrunner Pot Pie</li>
-                                <li> <img src="/acme/images/recipes/soup.jpg" alt="Roadrunner soup">Roadrunner Soup</li>
-                                <li><img src="/acme/images/recipes/taco.jpg" alt="Roadrunner Tacos">Roadrunner Tacos</li>
-                            </ul>
+                            <div class="left_article" id="recipe-content">
+                                
+                                <figure>
+                                    <img class="eat" src="/acme/images/recipes/bbqsand.jpg" alt="Pulled Sandwich">
+                                    <figcaption>
+                                        <a href="#" title="Sandwich">Pulled Roadrunner BBQ Sandwich</a>
+                                    </figcaption>
+                                </figure>
+                                
+                                <figure>
+                                    <img class="eat" src="/acme/images/recipes/potpie.jpg" alt="Roadrunner Pot Pie">
+                                    <figcaption>
+                                        <a href="#" title="Potpie">Roadrunner Pot Pie</a> 
+                                    </figcaption>
+                                        </figure>
+                                
+                                <figure>
+                                    <img class="eat" src="/acme/images/recipes/soup.jpg" alt="Roadrunner soup">
+                                    <figcaption>
+                                        <a href="#" title="Soup">Roadrunner Soup</a> 
+                                    </figcaption>
+                                </figure>
+                                
+                                <figure>
+                                    <img class="eat" src="/acme/images/recipes/taco.jpg" alt="Roadrunner Tacos">
+                                    <figcaption>
+                                        <a href="#" title="Tacos">Roadrunner Tacos</a> 
+                                    </figcaption>
+                            </figure>
+                            
+                        </div>
                         </div>
                     </div>
                 </div>
             </section>
+            
+             <div id="right_article">
+                        <br>
+                        <h3>Acme Rocket Reviews</h3>
+                        <ul>
+                            <li>"I don't know how I ever caught roadrunners before this." (9/10)</li>
+                            <li>"That thing was fast!" (4/5)</li>
+                            <li>"Talk about fast delivery." (5/5)</li>
+                            <li>"I didn't even have to pull the meat apart." (4.5/5)</li>
+                            <li>"I'm on my thirtieth one. I love these things!" (5/5)</li>
+                        </ul>
+                    </div>
+            
                 <section id="product-content">
                     <h1 id="product-name"></h1>
                     <section id=product-zone>
@@ -86,8 +110,10 @@
                     <section id="page-footer">
                         <hr>
                         <section class="copyright">
-                            <p>&copy; 2017 ACME, All rights reserved.</p>
+                            <strong>
+                                <p>&copy; 2017 ACME, All rights reserved.</p>
                             <p>All images used are believed to be in "Fair Use". Please notify the author if any are not and they will be removed.</p>
+                            </strong>
                         </section>
                     </section>
                 </footer>
