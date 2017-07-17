@@ -1,55 +1,60 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
+<head>
     
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>ACME</title>
-    <meta name="description" content="Acme Project">
-    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="ACME Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/acme/css/template.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     
-    </head>
-    
-    <body>
-        
-        <div id="wrapper">
-            
-        <header>
-            
-            <img src="/acme/images/site/logo.png" alt="logo">
-        
-        </header>
-    
-        
-        <nav>
-            <ul id="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Anvils</a></li>
-                <li><a href="#">Explosives</a></li>
-                <li><a href="#">Decoys</a></li>
-                <li><a href="#">Traps</a></li>
-            </ul>
-            
-        </nav>
-        
-        
-        <main>
-        
-            <h1>CONTENT TITLE HERE.</h1>
-            
-        </main>
-    
-        
-        <footer>
-            
-            <strong>&copy;2017 ACME Inc., All rights reserved.</strong><br>
-            All images used are believed to be in "Fair Use". Please notify the author if any are not and they will be removed.
-        
-        </footer>
-        
-        </div>
-        
-    </body>
+</head>
 
-</html>
+<body id="body">
+    <div class="container">
+        <header id="page-header">
+            <script src="/acme/js/code.js"></script>
+        </header>
+        <div class="primary_header">
+            <img id="logo" src="/acme/images/site/logo.png" alt="acme logo">
+        </div>
+        <nav id="page-nav">
+            <noscript id="noscript">Enable JavaScript for this site to function.</noscript>
+            <ul>
+                <li><a href="#" title="Home">Home</a></li>
+            </ul>
+        </nav>
+
+        <main id="page">
+
+            <section id="home-content">
+                <section class="content">
+                    <h1 id="wel">Main Content Here!</h1>
+                    </section>
+                </section>
+
+                
+                <section id="product-content">
+                    <h1 id="product-name"></h1>
+                    <section id=product-zone>
+                        <section id=prod-image></section>
+                        <section id="prod-description"></section>
+                    </section>
+                </section>
+
+                <footer>
+                            
+                    <section id="page-footer">
+                        <hr>
+                        <section class="copyright">
+                                <p>&copy; 2017 ACME, All rights reserved.</p>
+                            <p>All images used are believed to be in "Fair Use". Please notify the author if any are not and they will be removed.</p>
+                        </section>
+                    </section>
+                </footer>
+                </main>
+    </div>
+    </body>
+        </html>
