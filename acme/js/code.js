@@ -8,6 +8,7 @@ $(document).ready(function () {
             jsonData = data;
             console.log(jsonData);
             var output = '<ul>';
+                    output += '<li><a href="#" title="Home">Home</a></li>';
             $.each(data, function (key, value) {
                 output += '<li>';
                 output += '<a href="//google.com" title="' + key + '">' + key + '</a>';
@@ -25,11 +26,15 @@ $(document).ready(function () {
             if (pageName == "Home") {
                 document.getElementById("home-content").style.display = "inline";
                 document.getElementById("product-content").style.display = "none";
+                document.getElementById("right_article").style.display = "inline";
                 $("title").text("ACME");
+                
             } else {
 
                 document.getElementById("home-content").style.display = "none";
                 document.getElementById("product-content").style.display = "inline";
+                document.getElementById("right_article").style.display = "none";
+                
 
                 var name = jsonData[pageName].name;
                 var path = jsonData[pageName].path;
